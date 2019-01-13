@@ -11,7 +11,7 @@ from time import sleep
 # print(screenshot.shape)
 
 
-env = gym.make('CartPole-v0')  # https://gym.openai.com/envs/CartPole-v1/
+env = gym.make('CartPole-v1')  # https://gym.openai.com/envs/CartPole-v1/
 env.reset()
 
 # extracting env-specific constants
