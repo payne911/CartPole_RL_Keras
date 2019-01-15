@@ -38,7 +38,7 @@ dqn = DQNAgent(model=model, nb_actions=num_actions, memory=memory, nb_steps_warm
                target_model_update=1e-2, policy=policy)
 dqn.compile(Adam(lr=1e-3), metrics=['mae'])
 dqn.fit(env, nb_steps=50000,
-        visualize=True,
+        visualize=False,
         verbose=2)
 dqn.test(env, nb_episodes=10, visualize=True)
 

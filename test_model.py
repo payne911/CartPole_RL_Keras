@@ -12,7 +12,7 @@ print(model.summary())
 
 for _ in range(10):
     print("TEST")
-    totalreward = 0
+    totalreward = 1
     observation, reward, done, _ = env.step(env.action_space.sample())  # random action
     print(observation)
     while not done:
