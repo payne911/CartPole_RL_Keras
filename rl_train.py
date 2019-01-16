@@ -42,4 +42,4 @@ dqn.fit(env, nb_steps=50000,
         verbose=2)
 dqn.test(env, nb_episodes=10, visualize=True)
 
-model.save('saved_model_3.h5')
+model.save('models/saved_model_3.h5')

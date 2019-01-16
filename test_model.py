@@ -4,7 +4,7 @@ from keras.models import load_model
 
 
 # load and set up
-model = load_model('saved_model.h5')
+model = load_model('models/saved_model.h5')
 env = gym.make('CartPole-v1')  # https://gym.openai.com/envs/CartPole-v1/
 env.reset()
 

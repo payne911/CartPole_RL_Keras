@@ -2,15 +2,6 @@ import gym  # https://gym.openai.com/docs/
 from time import sleep
 
 
-### To obtain a screenshot to use as input for NN
-#from PIL import Image
-# screenshot = env.render(mode='rgb_array')  # 600x400 screenshot
-# screenshot = screenshot[280:300, 200:400, :]
-# img = Image.fromarray(screenshot, 'RGB')
-# img.save(str(totalreward) + 'my_crop.png')
-# print(screenshot.shape)
-
-
 env = gym.make('CartPole-v1')  # https://gym.openai.com/envs/CartPole-v1/
 env.reset()
 
