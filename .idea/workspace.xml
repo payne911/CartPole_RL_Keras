@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3d91b808-6228-4709-9d12-c30a9602f532" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/tests/img_input_rl.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/img_input_rl_breakout.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/human_play_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/human_play_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img_input_rl.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/init_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/init_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rl_train.py" beforeDir="false" afterPath="$PROJECT_DIR$/rl_train.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_model.h5" beforeDir="false" afterPath="$PROJECT_DIR$/models/saved_model.h5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_model_2.h5" beforeDir="false" afterPath="$PROJECT_DIR$/models/saved_model_2.h5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_model.py" afterDir="false" />
-    </list>
+    <list default="true" id="3d91b808-6228-4709-9d12-c30a9602f532" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +43,7 @@
     <session id="817892485">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.235" value="1" />
           <entry key="project.open.time.47" value="1" />
           <entry key="project.opened" value="2" />
@@ -63,12 +52,12 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="py" value="1883" />
-          <entry key="txt" value="82" />
+          <entry key="txt" value="143" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="82" />
+          <entry key="PLAIN_TEXT" value="143" />
           <entry key="Python" value="1883" />
         </counts>
       </usages-collector>
@@ -363,19 +352,25 @@
       <option name="project" value="LOCAL" />
       <updated>1547560954175</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="opengym ai library not working properly...">
+      <created>1547646443284</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1547646443284</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13813615" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.41702127" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.41702127" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -395,7 +390,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="testing a saved model: integrated" />
     <MESSAGE value="'play' not working (from library)..." />
-    <option name="LAST_COMMIT_MESSAGE" value="'play' not working (from library)..." />
+    <MESSAGE value="opengym ai library not working properly..." />
+    <option name="LAST_COMMIT_MESSAGE" value="opengym ai library not working properly..." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$USER_HOME$/.PyCharmCE2018.2/system/python_stubs/-366121864/numpy/core/multiarray.py">
