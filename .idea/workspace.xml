@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d91b808-6228-4709-9d12-c30a9602f532" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wrappers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/CartPole_RL_Keras.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CartPole_RL_Keras.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_img_model.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rl_train.py" beforeDir="false" afterPath="$PROJECT_DIR$/rl_train.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/img_input_rl.py" beforeDir="false" afterPath="$PROJECT_DIR$/img_input_rl.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,20 +18,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rl_train.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="827">
-              <caret line="43" selection-start-line="43" selection-end-line="43" />
-              <folding>
-                <element signature="e#0#42#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/img_input_rl.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1235">
-              <caret line="57" column="23" selection-start-line="57" selection-start-column="23" selection-end-line="57" selection-end-column="23" />
+            <state relative-caret-position="240">
+              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
               <folding>
                 <element signature="e#0#42#0" expanded="true" />
               </folding>
@@ -47,6 +32,30 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="264">
               <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/img_input_rl.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-520">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+              <folding>
+                <element signature="e#0#42#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_img_model.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="504">
+              <caret line="30" column="4" lean-forward="true" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="65" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -82,13 +91,14 @@
         <option value="$PROJECT_DIR$/init_test.py" />
         <option value="$PROJECT_DIR$/model.py" />
         <option value="$PROJECT_DIR$/human_play_test.py" />
-        <option value="$PROJECT_DIR$/rl_train.py" />
         <option value="$PROJECT_DIR$/tests/init_test.py" />
         <option value="$PROJECT_DIR$/img_input_rl_breakout.py" />
         <option value="$PROJECT_DIR$/tests/img_input_rl.py" />
-        <option value="$PROJECT_DIR$/test_model.py" />
         <option value="$PROJECT_DIR$/wrappers.py" />
+        <option value="$PROJECT_DIR$/rl_train.py" />
         <option value="$PROJECT_DIR$/img_input_rl.py" />
+        <option value="$PROJECT_DIR$/test_img_model.py" />
+        <option value="$PROJECT_DIR$/test_model.py" />
       </list>
     </option>
   </component>
@@ -111,11 +121,6 @@
               <item name="CartPole_RL_Keras" type="b2602c69:ProjectViewProjectNode" />
               <item name="CartPole_RL_Keras" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="CartPole_RL_Keras" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CartPole_RL_Keras" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -129,14 +134,15 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\payne\PycharmProjects\CartPole_RL_Keras" />
+      <recent name="C:\Users\PC\PycharmProjects\CartPole_RL_Keras" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\payne\PycharmProjects\CartPole_RL_Keras" />
       <recent name="C:\Users\PC\PycharmProjects\CartPole_RL_Keras\tests" />
       <recent name="C:\Users\PC\PycharmProjects\CartPole_RL_Keras\img" />
       <recent name="C:\Users\PC\PycharmProjects\CartPole_RL_Keras\models" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\PC\PycharmProjects\CartPole_RL_Keras" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -151,7 +157,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.img_input_rl">
+  <component name="RunManager" selected="Python.test_img_model">
     <configuration name="img_input_rl" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="CartPole_RL_Keras" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -186,6 +192,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/img_input_rl.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_img_model" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="CartPole_RL_Keras" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_img_model.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -218,11 +245,13 @@
     <list>
       <item itemvalue="Python.img_input_rl" />
       <item itemvalue="Python.test_model" />
+      <item itemvalue="Python.test_img_model" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.img_input_rl" />
+        <item itemvalue="Python.test_img_model" />
         <item itemvalue="Python.test_model" />
+        <item itemvalue="Python.img_input_rl" />
         <item itemvalue="Python.img_input_rl" />
       </list>
     </recent_temporary>
@@ -264,13 +293,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13804004" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3716143" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2892741" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -322,18 +352,38 @@
     <entry file="file://$PROJECT_DIR$/tests/img_input_rl_breakout.py" />
     <entry file="file://$PROJECT_DIR$/rl_train.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="827">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        <state relative-caret-position="240">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
           <folding>
             <element signature="e#0#42#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/rl/agents/dqn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="100" column="1" lean-forward="true" selection-start-line="100" selection-start-column="1" selection-end-line="100" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wrappers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="48">
+          <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_img_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="30" column="4" lean-forward="true" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="65" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -349,8 +399,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/img_input_rl.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1235">
-          <caret line="57" column="23" selection-start-line="57" selection-start-column="23" selection-end-line="57" selection-end-column="23" />
+        <state relative-caret-position="-520">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
           <folding>
             <element signature="e#0#42#0" expanded="true" />
           </folding>
