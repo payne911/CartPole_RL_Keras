@@ -5,7 +5,7 @@ from models.img_model.wrappers import WarpFrame
 
 
 # load and set up
-model = load_model('models/saved_img_model_2.h5')
+model = load_model('saves/saved_img_model_2.h5')
 print(model.summary())
 env = gym.make('CartPole-v1')  # https://gym.openai.com/envs/CartPole-v1/
 env = WarpFrame(env)

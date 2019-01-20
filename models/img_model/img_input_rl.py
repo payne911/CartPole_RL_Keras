@@ -54,4 +54,4 @@ dqn.fit(env, nb_steps=500000,
         verbose=2)
 dqn.test(env, nb_episodes=25, visualize=True)
 
-model.save('models/saved_img_model_5.h5')
+model.save('saves/saved_img_model_5.h5')

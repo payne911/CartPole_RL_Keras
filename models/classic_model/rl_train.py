@@ -29,7 +29,7 @@ def build_model(state_size, num_actions):
 
 # setting up the model
 model = build_model(num_inputs, num_actions)  # 4 input, 2 actions
-memory = SequentialMemory(limit=50000, window_length=1)
+memory = SequentialMemory(limit=10000, window_length=1)
 policy = LinearAnnealedPolicy(EpsGreedyQPolicy(), attr='eps', value_max=1.,
                               value_min=.1, value_test=.05, nb_steps=10000)
 
@@ -37,9 +37,9 @@ policy = LinearAnnealedPolicy(EpsGreedyQPolicy(), attr='eps', value_max=1.,
 dqn = DQNAgent(model=model, nb_actions=num_actions, memory=memory, nb_steps_warmup=400,
                target_model_update=1e-2, policy=policy)
 dqn.compile(Adam(lr=1e-3), metrics=['mae'])
-dqn.fit(env, nb_steps=100000,
+dqn.fit(env, nb_steps=50000,
         visualize=False,
         verbose=2)
 dqn.test(env, nb_episodes=10, visualize=True)
 
-model.save('models/saved_model_3.h5')
+model.save('saves/saved_model_3.h5')
