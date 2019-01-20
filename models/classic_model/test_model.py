@@ -8,7 +8,6 @@ model = load_model('saves/saved_model_2.h5')
 print(model.summary())
 env = gym.make('CartPole-v1')  # https://gym.openai.com/envs/CartPole-v1/
 env.reset()
-print("\n\n\n\n\n\n\n\n\n")
 
 for attempt in range(10):  # run 10 tests
     total_reward = 0
